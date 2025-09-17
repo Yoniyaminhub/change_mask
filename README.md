@@ -1,3 +1,5 @@
+https://community.qlik.com/t5/Qlik-Replicate/Column-header-change-mask/m-p/2531061#M15102
+
 # Change Mask → Column Change Flags (Qlik Replicate CT)
 
 Decode Qlik Replicate’s **`change_mask`** (a little-endian, null-trimmed byte array) and output, for every Change Table (CT) row, a **1/0 flag per CT column** indicating whether that column changed.
